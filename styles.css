@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(251, 240, 255);
+}
+.wordContainer{
+    background-color: aqua;
+    text-align: center;
+    max-width: 800px;
+    min-height: 600px;
+    /* margin-top: 100px; */
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 100%;
+    box-shadow: 15px 10px 10px rgba(255, 192, 203, 0.38);
+    /* opacity: .5; */
+    
+    background-image:url( "https://static.vecteezy.com/system/resources/previews/004/684/808/non_2x/pink-watercolor-world-map-free-vector.jpg");
+    
+}
+ul{
+    list-style-type: none;
+}
+footer{
+    padding-top: 20px;
+}
+.city-info{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+}
+select{
+    border-radius: 15px;
+    width: 50%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: pink;
+}
+#title{
+    font-family: 'Courier New', Courier, monospace;
+}
+.time{
+    font-size:50px;
+    margin-top: 25px;
+}
+.city-date{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+h2 { 
+  margin-top: 40px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+h4 { 
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+hr{
+    width: 80%;
+   border-color: rgba(237, 180, 190, 0.745);
+   color: pink;
+   opacity: .2;
+}
+#lastHr{
+    width: 60%;
+}
+#secondCity{
+    margin-right: 50px;
+}
+#lastCity{
+    padding-left: 20px;
+}
