@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>World Clock</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.44/moment-timezone-with-data-1970-2030.js"></script>
 </head>
 <body>
     
@@ -23,43 +25,43 @@
                 <option value="Tokyo"> Tokyo</option>
                 <option value="Paris"> Paris</option>
             </select>
-            <div class="city">
-                <div class="city-info">
+            <div class="city" >
+                <div class="city-info" id="los-angeles">
                     <div class="city-date">
                      <h2>Los Angeles </h2>
-                        <h4> <small> August15th 2023</small> </h4> 
+                    <h4 id="los-angeles-date">------- </h4> 
                     </div>
-                    <div class="time">
-                         1:48:15 <small> am</small>
+                    <div class="time" id="los-angeles-time">
+                         ------------
                     </div>
                 </div>
                 <hr>
-                <div class="city-info">
+                <div class="city-info" id="paris">
                     <div class="city-date" id="secondCity">
-                     <h2>Los Angeles </h2>
-                        <h4> <small> August15th 2023</small> </h4> 
+                     <h2>Paris </h2>
+                        <h4 id="paris-date"> <small> -------</small> </h4> 
                     </div>
-                    <div class="time">
-                         1:48:15 <small> am</small>
+                    <div class="time" id="paris-time">
+                         ------------ 
                     </div>
                 </div>
                 <hr>
                 <div class="city-info">
                     <div class="city-date">
-                     <h2>Los Angeles </h2>
-                        <h4> <small> August15th 2023</small> </h4> 
+                     <h2>Tokyo </h2>
+                        <h4 id="tokyo-date"> <small> August15th 2023</small> </h4> 
                     </div>
-                    <div class="time">
+                    <div class="time" id="tokyo-time">
                          1:48:15 <small> am</small>
                     </div>
                 </div>
                 <hr>
                 <div class="city-info">
                     <div class="city-date" id="lastCity">
-                     <h2>Los Angeles </h2>
-                        <h4> <small> August15th 2023</small> </h4> 
+                     <h2>Nirobi </h2>
+                        <h4 id="nirobi-date"> <small> August15th 2023</small> </h4> 
                     </div>
-                    <div class="time">
+                    <div class="time" id="nirobi-time">
                          1:48:15 <small> am</small>
                     </div>
                 </div>
