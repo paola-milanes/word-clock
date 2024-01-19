@@ -75,3 +75,11 @@ hr{
 #lastCity{
     padding-left: 20px;
 }
+#newCitySearch{
+    margin-top: 120px;
+    padding-bottom: 218px;
+    font-size: 400px;
+}
+#newCitySearchName{
+    font-size: 50px;
+}

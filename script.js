@@ -42,3 +42,27 @@ setInterval(function () {
   nirobiDateElement.innerHTML = nirobiTime.format("MMM Do YYYY");
   nirobiTimeElement.innerHTML = nirobiTime.format("h:mm:ss[<small>]a[</small>]");
 }, 1000);
+function updatecity(event){
+    setInterval(function () {
+      let cityTimeZone = event.target.value;
+      if(cityTimeZone === "current"){
+        cityTimeZone = moment.tz.guess();
+      }
+      let cityName = cityTimeZone.replace("_"," ").split("/")[1];
+      let cityTime = moment().tz(cityTimeZone);
+      let city = document.querySelector("#city");
+      city.innerHTML = `
+        <div class="city-info" id="newCitySearch">
+            <div class="city-date" >
+                <h2 id = "newCitySearchName">${cityName} </h2>
+                <h4> ${cityTime.format("MMM Do YYYY")} </h4> 
+            </div>
+            <div class="time" >
+                   ${cityTime.format("h:mm:ss[<small>]a[</small>]")}
+            </div>
+        </div>
+    `;
+    }, 1000);
+}
+let citiesselect = document.querySelector("#countries");
+citiesselect,addEventListener("change", updatecity)
