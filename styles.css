@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(251, 240, 255);
+    background-color: #f7f7fd;;
 }
 .wordContainer{
     
@@ -8,14 +8,26 @@ body{
     min-height: 600px;
     /* margin-top: 100px; */
     margin: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
     border-radius: 100%;
     box-shadow: 15px 10px 10px rgba(255, 192, 203, 0.38);
     /* opacity: .5; */
     
     background-image:url( "https://static.vecteezy.com/system/resources/previews/004/684/808/non_2x/pink-watercolor-world-map-free-vector.jpg");
     
+}
+.clockContainer{
+    background-color: rgba(249, 249, 249, 0.625);
+   text-align: center;
+    max-width: 800px;
+    min-height: 600px;
+    margin: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 100%;
+    box-shadow: 15px 10px 10px rgba(255, 192, 203, 0.38);
+    /* opacity: .5; */
 }
 ul{
     list-style-type: none;
